@@ -8,13 +8,13 @@ public class ClickerController : MonoBehaviour
     public Text scoreText;
     public int clickPower = 1;
     public Transform clickableImage;
-    public float shrinkDelta = 0.1f; // Фиксированное значение уменьшения
+    public float shrinkDelta = 0.1f; 
     public float shrinkTime = 0.1f;
 
     private Vector3 originalScale;
     private bool isAnimating = false;
     public ParticleSystem clickParticles;
-    public Sprite[] particleSprites; // Массив спрайтов для частиц
+    public Sprite[] particleSprites; 
 
     void Update()
     {
